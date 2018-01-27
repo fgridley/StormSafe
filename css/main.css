@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    color: black;
+    margin-left: 100px;
+}
+
+#Header {
+  background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a:link {
+    color: black;
+    display: block;
+    padding: 8px;
+    background-color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+a:active {
+    background-color: lightgray;
+}
