@@ -80,12 +80,14 @@ li:link {
 }
 
 li:hover {
+    color: black
     background-color: yellow;
 }
 
 li:active {
-    background-color: lightgray;
+    background-color: white;
     font-weight: bold;
+    color: black
 }
 
 p {
