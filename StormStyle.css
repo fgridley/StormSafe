@@ -85,9 +85,10 @@ a:hover {
 
 a:active {
     background-color: lightgray;
+    color: black;
 
 }
 
 a:visited {
-    color: green
+    color: black;
 }
