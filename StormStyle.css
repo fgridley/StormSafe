@@ -68,7 +68,7 @@ li {
    float: right;
 }
 
-li:link {
+a:link {
     color: black;
     display: block;
     padding: 8px;
@@ -79,19 +79,17 @@ li:link {
     font-family: sans-serif;
 }
 
-li:hover {
-    color: black;
+a:hover {
     background-color: yellow;
 }
 
-li:active {
-    background-color: white;
+a:active {
+    background-color: lightgray;
     font-weight: bold;
-    color: black;
 }
 
-a {
-  color: black;
+a:visited {
+    color: black;
 }
 
 p {
