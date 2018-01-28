@@ -79,13 +79,20 @@ a:link {
     font-family: sans-serif;
 }
 
-nav a:hover {
+a:hover {
     background-color: yellow;
 }
 
+p {
+  margin-left: 50px;
+  margin-left: 50px;
+}
 
+p:hover {
+    background-color: white;
+}
 
-nav a:visited {
+a:visited {
     color: black;
     background-color: lightgray;
 }
