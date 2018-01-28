@@ -85,13 +85,6 @@ a:hover {
 
 p {
   margin-left: 50px;
-  margin-left: 50px;
-  font-family: sans-serif;
-}
-
-
-
-a:visited {
-    color: black;
-    background-color: lightgray;
+  margin-right: 200 px;
+  font-family: 'Roboto', sans-serif;
 }
