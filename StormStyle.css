@@ -87,3 +87,7 @@ a:active {
     background-color: lightgray;
     font-weight: bold;
 }
+
+a:visited {
+    color: black;
+}
