@@ -4,12 +4,11 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
-  <title>Active Hurricanes and Typhoons</title>
+  <title>Volcanoes</title>
 
   <link rel="shortcut icon" type="image/x-icon" href="Favicon.ico" />
   <link rel="stylesheet" href="https://js.arcgis.com/3.23/dijit/themes/claro/claro.css">
   <link rel="stylesheet" href="https://js.arcgis.com/3.23/esri/css/esri.css">
-  <link rel="stylesheet" href="/css/StormStyle.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
   <script src="https://js.arcgis.com/3.23/" data-dojo-config="async:true"></script>
@@ -44,7 +43,7 @@
 
         //if accessing webmap from a portal outside of ArcGIS Online, uncomment and replace path with portal URL
         //arcgisUtils.arcgisUrl = "https://pathto/portal/sharing/content/items";
-        arcgisUtils.createMap("57ceec4673084a8abf007b514bfe79df", "map").then(function (response) {
+        arcgisUtils.createMap("89c3c13e55c04892a8b8b1e988f3ac30", "map").then(function (response) {
           //update the app
           dom.byId("title").innerHTML = response.itemInfo.item.title;
           dom.byId("subtitle").innerHTML = response.itemInfo.item.snippet;
