@@ -83,9 +83,8 @@ a:hover {
     background-color: yellow;
 }
 
-li.active a {
-    background-color: lightgray;
-    color: black;
+li.active {
+  background-color: lightgray;
 }
 
 a:visited {
