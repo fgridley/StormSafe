@@ -83,8 +83,13 @@ a:hover {
     background-color: yellow;
 }
 
+a:active {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
 p {
   margin-left: 50px;
-  margin-right: 200 px;
+  margin-right: 200px;
   font-family: 'Roboto', sans-serif;
 }
