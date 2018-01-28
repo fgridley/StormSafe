@@ -79,14 +79,13 @@ a:link {
     font-family: sans-serif;
 }
 
-a:hover {
+nav a:hover {
     background-color: yellow;
 }
 
-li.active {
-  background-color: lightgray;
-}
 
-a:visited {
+
+nav a:visited {
     color: black;
+    background-color: lightgray;
 }
