@@ -1,31 +1,45 @@
+img {
+  width: 100px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
 body {
     background-color: lightgray;
-    font-family: Roboto, sans-serif;
 }
 
 h1 {
     color: black;
-    margin-left: 100px;
+    margin-left: 175px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 500%;
 }
 
-#Header {
+#box {
   background-color: white;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 50px;
+    padding-right: 100px;
+    align-self: center;
+    font-size: 120%;
+
 }
 
 li {
-    float: left;
+  margin-top: 45px;
+   float: right;
 }
 
 a:link {
     color: black;
     display: block;
     padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: white;
     text-decoration: none;
     font-family: sans-serif;
@@ -37,4 +51,5 @@ a:hover {
 
 a:active {
     background-color: lightgray;
+    font-weight: bold;
 }
