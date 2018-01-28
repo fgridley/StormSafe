@@ -68,7 +68,7 @@ li {
    float: right;
 }
 
-a:link {
+li:link {
     color: black;
     display: block;
     padding: 8px;
@@ -79,11 +79,11 @@ a:link {
     font-family: sans-serif;
 }
 
-a:hover {
+li:hover {
     background-color: yellow;
 }
 
-a:active {
+li:active {
     background-color: lightgray;
     font-weight: bold;
 }
