@@ -86,11 +86,10 @@ a:hover {
 p {
   margin-left: 50px;
   margin-left: 50px;
+  font-family: sans-serif;
 }
 
-p:hover {
-    background-color: white;
-}
+
 
 a:visited {
     color: black;
