@@ -83,10 +83,11 @@ a:hover {
     background-color: yellow;
 }
 
-.active {
+a:active {
     background-color: lightgray;
+
 }
 
 a:visited {
-    color: black;
+    color: green
 }
