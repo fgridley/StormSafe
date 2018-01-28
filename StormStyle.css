@@ -80,15 +80,16 @@ li:link {
 }
 
 li:hover {
-    color: black
+    color: black;
     background-color: yellow;
 }
 
 li:active {
     background-color: white;
     font-weight: bold;
-    color: black
+    color: black;
 }
+
 
 p {
   margin-left: 50px;
